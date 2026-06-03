@@ -40,7 +40,7 @@ void *primeSum(void *num)
     int i=2; //initializing the 1st prime number
     while(count>0)
     {
-        if(isPrime)
+        if(isPrime(i))
         {
             *sum=((*sum)+i);
             count--;
